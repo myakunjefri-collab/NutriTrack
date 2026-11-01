@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-main: #f7f8f8;
+  --text-main: #0c0f0f;
+}
+
+html {
+  background: var(--bg-main);
+  color: var(--text-main);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background: #f7f8f8;
+  color: #0c0f0f;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #38e8f5;
+  color: #032d30;
+}
+
+@layer components {
+  .token-chip {
+    @apply inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 font-mono text-[11px] font-medium border;
+  }
+  .token-pill {
+    @apply inline-flex items-center gap-2 rounded-full px-3.5 py-1 text-xs font-semibold tracking-wide transition-all;
+  }
+  .studio-card {
+    @apply rounded-3xl border border-zinc-200/90 bg-white shadow-studio transition-all duration-300;
+  }
+}
+
+/* Custom subtle scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #D4D4D8 transparent;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #D4D4D8;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #A1A1AA;
+}
+
+/* Lenis */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

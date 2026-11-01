@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#B8893B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img">
+<circle cx="200" cy="200" r="184" stroke-dasharray="2 7" opacity=".55"/>
+<title>Dapur MBG (SPPG)</title>
+<path d="M110 206H290V290C290 306 278 312 262 312H138C122 312 110 306 110 290Z"/>
+<ellipse cx="200" cy="206" rx="90" ry="14"/>
+<path d="M110 232H88C80 232 78 244 88 244H110M290 232H312C320 232 322 244 312 244H290"/>
+<path d="M170 186C160 170 182 160 172 142M200 188C190 168 212 158 202 136M230 186C220 170 242 160 232 144" stroke="#C4552D"/>
+<path d="M150 330C146 344 156 350 152 360M200 330C196 344 206 350 202 360M250 330C246 344 256 350 252 360" opacity=".6"/>
+<path d="M130 256H270M130 274H270" opacity=".35"/>
+<path d="M330 120L286 214" /><ellipse cx="338" cy="104" rx="14" ry="10" transform="rotate(-25 338 104)"/>
+
+</svg>

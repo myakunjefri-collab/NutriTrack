@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#B8893B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img">
+<circle cx="200" cy="200" r="184" stroke-dasharray="2 7" opacity=".55"/>
+<title>Timbangan bayi posyandu</title>
+<ellipse cx="200" cy="196" rx="132" ry="22"/>
+<path d="M68 196C68 250 122 272 200 272C278 272 332 250 332 196"/>
+<path d="M92 246C60 252 52 270 56 286M308 246C340 252 348 270 344 286"/>
+<rect x="120" y="290" width="160" height="46" rx="6"/>
+<circle cx="200" cy="313" r="17"/><path d="M200 313L210 303" stroke="#C4552D"/>
+<path d="M186 300l2 3M200 296v4M214 300l-2 3" opacity=".6"/>
+<path d="M140 336v14M260 336v14"/>
+<path d="M100 150C130 120 270 120 300 150" opacity=".5" stroke-dasharray="3 6"/>
+
+</svg>

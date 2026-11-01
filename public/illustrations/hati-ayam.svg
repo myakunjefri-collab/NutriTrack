@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#B8893B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img">
+<circle cx="200" cy="200" r="184" stroke-dasharray="2 7" opacity=".55"/>
+<title>Hati ayam</title>
+<path d="M90 230C80 170 140 120 220 128C300 136 330 190 318 240C310 275 270 292 240 282C226 278 214 262 200 270C170 288 100 290 90 230Z"/>
+<path d="M200 270C204 236 210 206 232 168"/>
+<path d="M214 214C190 206 170 190 160 168M222 190C246 186 268 190 290 204M210 240C186 244 160 240 138 226" opacity=".7"/>
+<path d="M232 168C230 150 236 138 248 126" stroke="#C4552D"/>
+<path d="M120 190C130 168 150 154 172 150" opacity=".5"/>
+
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" stroke="#B8893B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" role="img">
+<circle cx="200" cy="200" r="184" stroke-dasharray="2 7" opacity=".55"/>
+
+<title>Telur ayam Blitar</title>
+<path d="M150 78C205 78 242 153 242 213C242 270 202 310 150 310C98 310 58 270 58 213C58 153 95 78 150 78Z"/>
+<path d="M100 150C112 120 130 104 150 100" />
+<path d="M196 130C222 160 230 205 218 250M210 118C238 158 244 208 230 262" opacity=".7"/>
+<path d="M286 150C324 150 350 202 350 244C350 284 322 312 286 312C250 312 222 284 222 244C222 202 248 150 286 150Z" stroke="#C4552D"/>
+<path d="M262 190C256 206 254 224 258 242" stroke="#C4552D"/>
+<path d="M60 332C140 350 260 350 340 332"/>
+<path d="M84 340l-8 14M120 346l-5 14M160 350l-2 14M240 350l2 14M282 346l5 14M318 340l8 14"/>
+<circle cx="150" cy="213" r="2" fill="#B8893B"/>
+
+</svg>

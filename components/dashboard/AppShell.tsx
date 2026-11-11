@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -131,18 +132,20 @@ export default function AppShell() {
         {/* Logo & Brand */}
         <div className="flex items-center justify-between border-b border-zinc-100 pb-5">
           <Link href="/" className="group flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-zinc-950 font-mono text-sm font-black text-[#38E8F5] shadow-sm transition-transform group-hover:scale-105">
-              &lt;&gt;
-            </span>
+            <div className="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-black shadow-sm transition-transform group-hover:scale-105">
+              <Image
+                src="/logo.png"
+                alt="NutriTrack Logo"
+                width={40}
+                height={40}
+                className="h-full w-full object-cover"
+                priority
+              />
+            </div>
             <div>
-              <div className="flex items-center gap-1.5">
-                <span className="font-sans text-lg font-black uppercase tracking-tight text-zinc-950">
-                  NutriTrack
-                </span>
-                <span className="rounded-md border border-emerald-200 bg-emerald-50 px-1.5 py-0.2 font-mono text-[9px] font-bold text-emerald-800">
-                  JATIM
-                </span>
-              </div>
+              <span className="font-sans text-lg font-black uppercase tracking-tight text-zinc-950">
+                NutriTrack
+              </span>
               <p className="font-mono text-[10px] text-zinc-400">Portal Presisi Intervensi MBG</p>
             </div>
           </Link>
@@ -317,12 +320,19 @@ export default function AppShell() {
 
       {/* Mobile Top App Header (<md) */}
       <div className="sticky top-0 z-40 flex md:hidden items-center justify-between border-b border-zinc-200 bg-white px-4 py-3 shadow-sm">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-zinc-950 font-mono text-xs font-black text-[#38E8F5]">
-            &lt;&gt;
-          </span>
+        <Link href="/" className="flex items-center gap-2.5">
+          <div className="relative flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-black shadow-sm">
+            <Image
+              src="/logo.png"
+              alt="NutriTrack Logo"
+              width={32}
+              height={32}
+              className="h-full w-full object-cover"
+              priority
+            />
+          </div>
           <span className="font-sans text-base font-black uppercase tracking-tight text-zinc-950">
-            NutriTrack <span className="text-[10px] font-mono text-emerald-800">JATIM</span>
+            NutriTrack
           </span>
         </Link>
 
@@ -380,7 +390,7 @@ export default function AppShell() {
           {/* Top Quick Breadcrumb & Context Bar */}
           <div className="mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-zinc-200/70 pb-4">
             <div className="flex items-center gap-2 font-mono text-xs text-zinc-500">
-              <span>NutriTrack Jatim</span>
+              <span>NutriTrack</span>
               <span>/</span>
               <span className="font-bold text-zinc-900">
                 {NAV_ITEMS.find((n) => n.key === activeTab)?.label}
@@ -465,10 +475,10 @@ export default function AppShell() {
           {/* Footer inside viewport */}
           <footer className="mt-16 border-t border-zinc-200/80 pt-6 pb-12 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-xs text-zinc-400">
             <div>
-              NutriTrack Jatim · Hak Cipta 2026 Pemerintah Provinsi Jawa Timur. Standar Permenkes No. 2/2020.
+              NutriTrack · Sistem Presisi Intervensi MBG & Pemantauan Gizi. Standar Permenkes No. 2/2020.
             </div>
             <div className="flex items-center gap-3">
-              <span>Mode: Prototipe Fungsional Terintegrasi</span>
+              <span>Sistem Operasional Terintegrasi</span>
               <span>●</span>
               <Link href="/" className="font-bold text-zinc-700 hover:text-[#38E8F5] transition-colors">
                 Landing Page

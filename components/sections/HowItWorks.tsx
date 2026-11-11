@@ -24,7 +24,7 @@ export default function HowItWorks() {
     },
     {
       id: 1,
-      title: "PRESKRIPSI MBG & KOMODITAS PANGAN LOKAL JATIM",
+      title: "PRESKRIPSI MBG & KOMODITAS PANGAN LOKAL",
       desc: "Data penimbangan hari-H langsung terkonversi menjadi pesanan porsi presisi: Paket A (Reguler) dan Paket B (Intervensi Tinggi Protein Hewani) di dapur SPPG terdekat. Menyerap telur Blitar, lele Lamongan, hati ayam, tempe, dan daun kelor dari Gapoktan lokal.",
       tag: "MODUL B · DAPUR SPPG MANDIRI",
       cardTheme: "bg-[#F5F2FF] border-[#D8CEFD]",
@@ -33,7 +33,7 @@ export default function HowItWorks() {
       id: 2,
       title: "LABEL QR 128-BIT & AUDIT RETURN ON NUTRITION",
       desc: "Setiap wadah makanan diberi label QR unik 128-bit untuk verifikasi penerimaan dan daya terima konsumsi anak. Dasbor pimpinan daerah memantau perbaikan Z-score pada siklus 30, 60, dan 90 hari dengan audit transparan berstandar Permenkes No. 2/2020.",
-      tag: "MODUL C & D · DINKES & PEMDA JATIM",
+      tag: "MODUL C & D · DINKES & PEMERINTAH DAERAH",
       cardTheme: "bg-[#F2FCE8] border-[#C0FC92]",
     },
   ];
@@ -432,7 +432,7 @@ export default function HowItWorks() {
                     <div className="flex gap-1 font-mono text-[9px] font-bold">
                       <span className="rounded-md bg-zinc-100 px-2 py-0.5 text-zinc-500">Kader</span>
                       <span className="rounded-md bg-zinc-100 px-2 py-0.5 text-zinc-500">Puskesmas</span>
-                      <span className="rounded-md bg-emerald-100 text-emerald-800 px-2 py-0.5 font-black">Pemda Jatim</span>
+                      <span className="rounded-md bg-emerald-100 text-emerald-800 px-2 py-0.5 font-black">Pemerintah Daerah</span>
                     </div>
                   </div>
                   
@@ -456,7 +456,7 @@ export default function HowItWorks() {
                       </span>
                       <span className="text-[10px] cursor-pointer hover:text-white">📋</span>
                     </div>
-                    <div className="text-purple-300 font-bold">&quot;audit_mbg_jatim&quot;: &#123;</div>
+                    <div className="text-purple-300 font-bold">&quot;audit_mbg_presisi&quot;: &#123;</div>
                     <div className="pl-3 text-cyan-300">&quot;siklus_hari&quot;: 90,</div>
                     <div className="pl-3 text-amber-300">&quot;balita_terpantau&quot;: 14250,</div>
                     <div className="pl-3 text-emerald-400 font-bold">&quot;delta_zscore&quot;: +0.9,</div>

@@ -24,7 +24,7 @@ export default function ModulDAnalitikTab() {
     setTimeout(() => {
       setIsExporting(false);
       setShowExportModal(false);
-      alert(`Laporan Audit NutriTrack Jatim (${exportFormat.toUpperCase()}) berhasil digenerate dan siap diunduh!`);
+      alert(`Laporan Audit NutriTrack (${exportFormat.toUpperCase()}) berhasil digenerate dan siap diunduh!`);
     }, 1500);
   };
 
@@ -36,11 +36,11 @@ export default function ModulDAnalitikTab() {
           <div className="flex items-center gap-2">
             <span className="h-2.5 w-2.5 rounded-full bg-[#38E8F5] animate-pulse" />
             <h2 className="font-sans text-xl font-black uppercase tracking-tight text-zinc-950">
-              Modul D: Analitik Dampak & Dasbor Pimpinan Jatim
+              Modul D: Analitik Dampak & Dasbor Pimpinan Daerah
             </h2>
           </div>
           <p className="mt-1 font-mono text-xs text-zinc-500">
-            Dinas Kesehatan Provinsi Jawa Timur · TPID & Bappeda · Evaluasi Siklus 30/60/90 Hari
+            Dinas Kesehatan · TPID & Bappeda · Evaluasi Siklus 30/60/90 Hari
           </p>
         </div>
 
@@ -256,7 +256,7 @@ export default function ModulDAnalitikTab() {
               <div className="flex items-center justify-between border-b border-zinc-100 pb-4">
                 <div>
                   <h3 className="font-sans text-xl font-black uppercase text-zinc-950">
-                    Ekspor Laporan Audit NutriTrack Jatim
+                    Ekspor Laporan Audit NutriTrack
                   </h3>
                   <p className="font-mono text-xs text-zinc-500">
                     SKPL-F14 · Dokumen Resmi Rekapitulasi MBG & Prevalensi Stunting

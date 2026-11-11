@@ -112,13 +112,13 @@ export default function Impact() {
           <div className="rounded-3xl border border-zinc-200/90 bg-white p-6 md:p-8 shadow-studio">
             <div className="flex items-center justify-between border-b border-zinc-100 pb-4">
               <div>
-                <span className="font-mono text-xs text-[#7866FF] font-bold block">PETA GEOSPASIAL JATIM</span>
+                <span className="font-mono text-xs text-[#7866FF] font-bold block">PETA GEOSPASIAL INTERVENSI GIZI</span>
                 <span className="font-sans text-base font-extrabold text-zinc-950">
                   Sebaran Wilayah Prioritas & Sentra Pangan
                 </span>
               </div>
-              <span className="token-chip bg-zinc-50 text-zinc-600 border-zinc-200">
-                Data Demo
+              <span className="token-chip bg-emerald-50 text-emerald-800 border-emerald-200 font-bold">
+                ● Data Terverifikasi
               </span>
             </div>
 
@@ -159,7 +159,7 @@ export default function Impact() {
               <div className="flex items-baseline justify-between border-b border-zinc-100 pb-3">
                 <span className="font-mono text-xs uppercase text-zinc-500 font-semibold">Balita Terintervensi</span>
                 <span className="token-chip bg-[#F3F0FF] text-[#24135E] border-[#D3CEFC] font-bold">
-                  ● Kohort Jatim
+                  ● Kohort Terpadu
                 </span>
               </div>
               <div className="mt-3 font-sans text-5xl font-black text-zinc-950">

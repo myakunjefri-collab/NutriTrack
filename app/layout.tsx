@@ -19,9 +19,9 @@ const sans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NutriTrack Jatim | Intervensi Stunting & Pemantauan MBG Presisi",
+  title: "NutriTrack | Intervensi Stunting & Pemantauan MBG Presisi",
   description:
-    "Dari timbangan posyandu menjadi menu MBG yang tepat di hari yang sama. Sistem presisi intervensi stunting Provinsi Jawa Timur.",
+    "Dari timbangan posyandu menjadi menu MBG yang tepat di hari yang sama. Sistem presisi intervensi stunting dan tata kelola gizi balita terpadu.",
 };
 
 export default function RootLayout({

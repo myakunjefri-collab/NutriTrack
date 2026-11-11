@@ -44,7 +44,7 @@ const TRIAD_STUDIO_CARDS = [
 export default function Triad() {
   return (
     <section
-      aria-label="Prinsip Tiga Aksi NutriTrack Jatim"
+      aria-label="Prinsip Tiga Aksi NutriTrack"
       className="relative bg-[#F7F8F8] py-24 text-zinc-900 border-b border-zinc-200/80"
     >
       <div className="mx-auto max-w-[1320px] px-5 md:px-10">
@@ -98,7 +98,7 @@ export default function Triad() {
 
               <div className="mt-8 pt-4 border-t border-current/15 flex items-center justify-between font-mono text-[11px] opacity-75">
                 <span>Alur Kerja Terpadu</span>
-                <span>Standar Jatim</span>
+                <span>Standar Nasional</span>
               </div>
             </div>
           ))}

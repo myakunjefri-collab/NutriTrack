@@ -198,7 +198,7 @@ export const RESEP_MOCK: RecipeItem[] = [
     karboGram: 38.0,
     tekstur: "Lembek Cincang Halus (12-24 Bulan)",
     gramasiBahan: [
-      { bahan: "Beras Putih Lokal Jatim", gram: 45, porsi100: "4.5 kg" },
+      { bahan: "Beras Putih Lokal", gram: 45, porsi100: "4.5 kg" },
       { bahan: "Telur Ayam Blitar", gram: 55, porsi100: "100 butir (5.5 kg)" },
       { bahan: "Fillet Daging Lele Lamongan", gram: 35, porsi100: "3.5 kg" },
       { bahan: "Hati Ayam Kampung Segar", gram: 25, porsi100: "2.5 kg" },
@@ -249,7 +249,7 @@ export const RESEP_MOCK: RecipeItem[] = [
     karboGram: 41.5,
     tekstur: "Nasi Lembek / Nasi Biasa (24-59 Bulan)",
     gramasiBahan: [
-      { bahan: "Beras Pulen Jatim", gram: 50, porsi100: "5.0 kg" },
+      { bahan: "Beras Pulen Berkualitas", gram: 50, porsi100: "5.0 kg" },
       { bahan: "Ikan Kembung Segar (Omega-3)", gram: 40, porsi100: "4.0 kg" },
       { bahan: "Tempe Kediri Organik", gram: 25, porsi100: "2.5 kg" },
       { bahan: "Labu Kuning & Buncis Iris", gram: 25, porsi100: "2.5 kg" },

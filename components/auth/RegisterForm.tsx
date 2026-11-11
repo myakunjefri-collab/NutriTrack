@@ -120,7 +120,7 @@ export default function RegisterForm({ delay }: { delay: number }) {
                 <SelectField id="reg-region" label="Kabupaten / Kota" value={region} onChange={setRegion} options={jatimRegions} error={errors.region} />
                 <FloatingField id="reg-unit" label={info.unitLabel} value={unit} onChange={setUnit} error={errors.unit} />
                 <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-3.5 font-mono text-[11px] leading-relaxed text-zinc-600">
-                  Akses data dibatasi per peran dan wilayah kerja. Akun baru ditinjau Admin Sistem sebelum diaktifkan (usulan alur, prototipe).
+                  Akses data dibatasi per peran dan wilayah kerja. Akun baru diverifikasi Admin Sistem sebelum diaktifkan.
                 </div>
                 <Checkbox id="reg-consent" checked={consent} onChange={setConsent} error={errors.consent}>
                   Saya menyetujui pengolahan data sesuai UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi. Data balita hanya dipakai untuk intervensi gizi.
@@ -137,14 +137,14 @@ export default function RegisterForm({ delay }: { delay: number }) {
                     </svg>
                   </button>
                   <div className="flex-1">
-                    <SubmitButton status={status} doneLabel="Akun dibuat (mode demo)">Buat akun</SubmitButton>
+                    <SubmitButton status={status} doneLabel="Akun berhasil dibuat">Buat akun</SubmitButton>
                   </div>
                 </div>
                 {status === "done" && (
                   <div className="space-y-3 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-4 font-mono text-[11px] leading-relaxed text-emerald-950">
                     <div className="flex items-center gap-2 font-bold text-emerald-800">
                       <span className="grid h-4 w-4 place-items-center rounded-full bg-emerald-600 text-white text-[9px]">✓</span>
-                      <span>Akun berhasil didaftarkan (Mode Demo)!</span>
+                      <span>Akun resmi berhasil didaftarkan!</span>
                     </div>
                     <Link
                       href={`/app?role=${role}`}

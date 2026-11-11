@@ -73,7 +73,7 @@ export default function Ticker() {
   return (
     <section
       ref={containerRef}
-      aria-label="Semboyan NutriTrack Jatim"
+      aria-label="Semboyan NutriTrack"
       className="relative overflow-hidden border-y border-zinc-200/80 bg-white py-6"
     >
       <div

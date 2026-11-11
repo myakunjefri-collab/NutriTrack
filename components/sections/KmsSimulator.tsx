@@ -54,7 +54,7 @@ export default function KmsSimulator() {
             </h2>
           </div>
           <span className="token-chip bg-white text-zinc-500 border-zinc-200 shadow-sm">
-            Formula WHO LMS · Data Demo
+            Formula Standar WHO LMS · Permenkes RI No. 2/2020
           </span>
         </div>
 

@@ -43,7 +43,7 @@ export default function OverviewTab({
               onClick={() => onSelectTab("analitik")}
               className="rounded-2xl border border-white/30 bg-white/10 px-5 py-3 font-sans text-xs font-bold text-white hover:bg-white/20 transition-all backdrop-blur-sm"
             >
-              Lihat Heatmap Jatim
+              Lihat Heatmap Wilayah
             </button>
           </div>
         </div>
@@ -238,10 +238,10 @@ export default function OverviewTab({
               Heatmap & Return on Nutrition
             </h4>
             <p className="mt-1 text-xs text-zinc-500 leading-relaxed">
-              SKPL-F12 s/d F14: Heatmap 38 kab/kota Jatim, RoN Tracker siklus 30/60/90 hari, dan ekspor laporan resmi berkop Dinkes Jatim.
+              SKPL-F12 s/d F14: Heatmap 38 kab/kota, RoN Tracker siklus 30/60/90 hari, dan ekspor laporan audit resmi Dinas Kesehatan.
             </p>
             <div className="mt-3 flex items-center gap-1.5 font-mono text-[10px] font-bold text-emerald-700">
-              <span>Puskesmas & Dinkes Jatim</span>
+              <span>Puskesmas & Dinas Kesehatan</span>
             </div>
           </div>
         </div>

@@ -38,7 +38,7 @@ export default function ModulBDapurTab() {
             </h2>
           </div>
           <p className="mt-1 font-mono text-xs text-zinc-500">
-            Dapur Mandiri SPPG Jatim · Konversi Data Timbangan Menjadi Kuota & Gramasi Masak
+            Dapur Mandiri SPPG · Konversi Data Timbangan Menjadi Kuota & Gramasi Masak
           </p>
         </div>
 
@@ -138,7 +138,7 @@ export default function ModulBDapurTab() {
             </p>
           </div>
           <span className="rounded-xl border border-emerald-300 bg-emerald-50 px-3 py-1 font-mono text-xs font-bold text-emerald-800">
-            94% Rantai Pasok Lokal Jatim
+            94% Rantai Pasok Petani & Peternak Lokal
           </span>
         </div>
 
@@ -193,13 +193,13 @@ export default function ModulBDapurTab() {
 
           <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
             <span className="font-mono text-[10px] uppercase font-bold text-zinc-600 block">
-              Beras Pulen Jatim
+              Beras Pulen Lokal
             </span>
             <span className="font-sans text-2xl font-black text-zinc-950 block mt-1">
               {kgBeras} kg
             </span>
             <span className="font-mono text-[10px] text-zinc-500 mt-1 block">
-              Gapoktan Lumbung Padi Jatim
+              Gapoktan Lumbung Padi
             </span>
           </div>
         </div>
@@ -474,7 +474,7 @@ export default function ModulBDapurTab() {
               <div className="flex items-center justify-between border-b border-zinc-100 pb-4">
                 <div>
                   <h3 className="font-sans text-xl font-black uppercase text-zinc-950">
-                    Log Pembelian Komoditas Peternak & Gapoktan Jatim
+                    Log Pembelian Komoditas Peternak & Gapoktan Lokal
                   </h3>
                   <p className="font-mono text-xs text-zinc-500">
                     SKPL-F09 · Transparansi Rantai Pasok Lokal Tanpa Perantara

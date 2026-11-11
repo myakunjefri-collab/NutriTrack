@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useRef, type ReactNode } from "react";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, LayoutGroup, MotionConfig, motion, useReducedMotion } from "framer-motion";
@@ -51,14 +52,18 @@ export default function AuthShell({ children }: { children?: ReactNode }) {
             href="/"
             className="group flex min-h-[44px] items-center gap-3 font-black tracking-tight text-zinc-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#38E8F5] rounded-xl px-1"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-zinc-950 font-mono text-sm font-black text-[#38E8F5] shadow-sm transition-transform group-hover:scale-105">
-              &lt;&gt;
-            </span>
-            <span className="flex items-center gap-2 font-sans text-base font-black uppercase tracking-tight sm:text-lg">
+            <div className="relative flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-black shadow-sm transition-transform group-hover:scale-105">
+              <Image
+                src="/logo.png"
+                alt="NutriTrack Logo"
+                width={36}
+                height={36}
+                className="h-full w-full object-cover"
+                priority
+              />
+            </div>
+            <span className="font-sans text-base font-black uppercase tracking-tight sm:text-lg">
               NutriTrack
-              <span className="rounded-md border border-emerald-200 bg-emerald-50 px-2 py-0.5 font-mono text-[10px] font-bold text-emerald-800">
-                JATIM
-              </span>
             </span>
           </Link>
           <Link
@@ -112,7 +117,7 @@ export default function AuthShell({ children }: { children?: ReactNode }) {
             <ShowcasePanel mode={mode} />
           </div>
           <p className="mt-5 text-center font-mono text-[11px] text-zinc-500">
-            Data demo · Prototipe antarmuka, belum terhubung ke backend
+            Sistem Terverifikasi · Portal Akses Intervensi Gizi & MBG Presisi
           </p>
         </div>
         {children}
@@ -171,7 +176,7 @@ function MobileBanner({ mode }: { mode: AuthMode }) {
             ● {login ? "Portal akses terpadu" : "Pendaftaran akun"}
           </p>
           <p className="mt-1 font-sans text-lg font-black uppercase leading-tight tracking-tight">
-            {login ? "Satu portal, lima peran." : "Gabung jaringan gizi Jatim."}
+            {login ? "Satu portal, lima peran." : "Gabung ekosistem NutriTrack."}
           </p>
         </div>
         <motion.div

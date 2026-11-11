@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import clsx from "clsx";
 import { nav } from "@/lib/demo-data";
@@ -99,16 +100,20 @@ export default function Navbar() {
         }}
         aria-label="Utama"
       >
-        {/* Brand Logo NutriTrack Jatim */}
+        {/* Brand Logo NutriTrack */}
         <Link href="/" className="flex items-center gap-3 font-black text-zinc-950 tracking-tight text-lg group">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-zinc-950 text-[#38E8F5] font-mono text-sm font-black transition-transform group-hover:scale-105 shadow-sm">
-            &lt;&gt;
-          </span>
-          <span className="flex items-center gap-2 font-sans font-black uppercase tracking-tight text-base sm:text-lg">
+          <div className="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-black shadow-sm transition-transform group-hover:scale-105">
+            <Image
+              src="/logo.png"
+              alt="NutriTrack Logo"
+              width={40}
+              height={40}
+              className="h-full w-full object-cover"
+              priority
+            />
+          </div>
+          <span className="font-sans font-black uppercase tracking-tight text-base sm:text-lg">
             NutriTrack
-            <span className="rounded-md border border-emerald-200 bg-emerald-50 px-2 py-0.5 font-mono text-[10px] font-bold text-emerald-800">
-              JATIM
-            </span>
           </span>
         </Link>
 

@@ -19,17 +19,17 @@ export default function YellowPrideBanner() {
             {/* Left Content */}
             <div className="space-y-6">
               <span className="font-mono text-xs font-black uppercase tracking-wider text-[#18140B]/75 block">
-                ● KETAHANAN PANGAN LOKAL JAWA TIMUR
+                ● KETAHANAN PANGAN LOKAL & GIZI PRESISI
               </span>
 
               <h2 className="font-sans text-4xl sm:text-5xl md:text-6xl lg:text-[4.2rem] font-black tracking-tightest uppercase leading-[1.02]">
                 Kedaulatan pangan <br />
                 untuk gizi anak <br />
-                Jawa Timur
+                generasi emas
               </h2>
 
               <p className="max-w-xl text-base sm:text-lg font-semibold leading-relaxed text-[#18140B]/90 font-sans">
-                Program MBG NutriTrack Jatim menyerap hasil peternak dan kelompok tani lokal Jawa Timur (Telur Blitar, Lele Lamongan, Daun Kelor). Rantai pasok pangan diperpendek demi kualitas protein segar terbaik bagi anak tanpa perantara berbelit.
+                Program MBG NutriTrack bermitra langsung dengan peternak dan kelompok tani lokal berkualitas (Telur Blitar, Lele Segar, Daun Kelor). Rantai pasok pangan diperpendek demi kualitas protein segar terbaik bagi anak tanpa perantara berbelit.
               </p>
 
               {/* Action Buttons */}
@@ -194,7 +194,7 @@ export default function YellowPrideBanner() {
                       fill="#E65100"
                     />
                     <text x="40" y="50" fontSize="6" fontFamily="sans-serif" fontWeight="900" fill="#18140B" textAnchor="middle">
-                      JATIM
+                      MBG
                     </text>
                   </g>
                 </svg>

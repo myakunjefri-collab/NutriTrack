@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { footerCols } from "@/lib/demo-data";
 
 export default function Footer() {
@@ -10,26 +11,27 @@ export default function Footer() {
         {/* Brand Col */}
         <div className="space-y-4">
           <div className="flex items-center gap-2.5">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-zinc-900 text-white shadow-sm">
-              <span className="font-mono text-sm font-black text-[#38E8F5]">&lt;&gt;</span>
+            <div className="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-black shadow-sm">
+              <Image
+                src="/logo.png"
+                alt="NutriTrack Logo"
+                width={40}
+                height={40}
+                className="h-full w-full object-cover"
+              />
             </div>
-            <div className="flex items-baseline gap-1.5">
-              <span className="font-sans text-xl font-bold tracking-tight text-zinc-950">
-                NutriTrack
-              </span>
-              <span className="rounded-md bg-emerald-50 px-1.5 py-0.5 font-mono text-[10px] font-bold text-emerald-800 border border-emerald-200">
-                JATIM
-              </span>
-            </div>
+            <span className="font-sans text-xl font-bold tracking-tight text-zinc-950">
+              NutriTrack
+            </span>
           </div>
 
           <p className="max-w-xs text-xs text-zinc-500 leading-relaxed font-sans">
-            Sistem presisi intervensi stunting dan pemantauan Makan Bergizi Gratis (MBG) berbasis komoditas pangan lokal Provinsi Jawa Timur.
+            Sistem presisi intervensi stunting dan pemantauan Makan Bergizi Gratis (MBG) berbasis komoditas pangan lokal berkualitas.
           </p>
 
           <div className="pt-2">
             <span className="token-chip bg-[#F0FDF4] text-[#15803D] border-[#BBF7D0] font-bold text-[11px]">
-              ● Selaras SDGs #2 & #3 · Jawa Timur
+              ● Selaras SDGs #2 & #3 · Ketahanan Gizi Nasional
             </span>
           </div>
         </div>
@@ -63,22 +65,22 @@ export default function Footer() {
 
       </div>
 
-      {/* NutriTrack Jatim Giant Clipped Wordmark */}
+      {/* NutriTrack Giant Clipped Wordmark */}
       <div
         aria-hidden="true"
         className="relative -mb-6 md:-mb-10 w-full overflow-hidden text-center select-none pointer-events-none"
       >
         <span className="font-sans block text-[clamp(4.8rem,18vw,16rem)] font-black tracking-tightest text-zinc-950/[0.03] leading-[0.75] uppercase whitespace-nowrap">
-          NUTRITRACK JATIM
+          NUTRITRACK
         </span>
       </div>
 
       {/* Bottom Bar */}
       <div className="relative z-10 border-t border-zinc-200/80 bg-zinc-50/80 py-6 font-mono text-xs text-zinc-500">
         <div className="mx-auto flex max-w-[1320px] flex-col sm:flex-row items-center justify-between gap-4 px-5 md:px-10">
-          <p>© {new Date().getFullYear()} NutriTrack Jatim. Seluruh hak cipta dilindungi.</p>
+          <p>© {new Date().getFullYear()} NutriTrack. Seluruh hak cipta dilindungi.</p>
           <p className="text-zinc-600 font-medium">
-            Semua angka pada platform ini adalah Data Demo untuk prototipe fungsional.
+            Sistem Terpadu Pemantauan Antropometri Posyandu & Tata Kelola MBG Presisi.
           </p>
         </div>
       </div>

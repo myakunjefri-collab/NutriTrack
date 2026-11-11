@@ -1,4 +1,4 @@
-# NutriTrack Jatim: Kerangka Landing Page
+# NutriTrack: Platform Intervensi Gizi & MBG Presisi
 
 Next.js 14 (App Router) + TypeScript + Tailwind + GSAP/ScrollTrigger + Lenis + Framer Motion.
 

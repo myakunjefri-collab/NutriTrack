@@ -12,7 +12,7 @@ export const nav = [
 export const tickerPhrases = [
   "Data kecil, dampak besar",
   "Timbang hari ini, masak hari ini",
-  "Dari kebun dan kandang Jawa Timur",
+  "Dari kebun dan peternak lokal berkualitas",
 ];
 
 export const problems = [
@@ -120,16 +120,16 @@ export const roles: { key: RoleKey; title: string; device: "ponsel" | "tablet" |
   },
   {
     key: "dinkes",
-    title: "Dinas Kesehatan / TPID Jatim",
+    title: "Dinas Kesehatan / TPID Daerah",
     device: "desktop",
-    body: "Heatmap prevalensi stunting se-Jatim, evaluasi RoN siklus 30/60/90 hari, dan unduh laporan audit Bappeda/Dinkes.",
+    body: "Heatmap prevalensi stunting wilayah, evaluasi RoN siklus 30/60/90 hari, dan unduh laporan audit Bappeda/Dinkes.",
   },
 ];
 
 export const commodities = [
   { name: "Telur Blitar", origin: "Kab. Blitar", note: "Sumber protein hewani harian unggulan", art: "telur-blitar" },
   { name: "Lele Lamongan", origin: "Kab. Lamongan", note: "Protein segar & asam lemak esensial (DHA)", art: "lele-lamongan" },
-  { name: "Hati Ayam", origin: "Peternak lokal Jatim", note: "Kaya zat besi tinggi pencegah anemia", art: "hati-ayam" },
+  { name: "Hati Ayam", origin: "Peternak mandiri lokal", note: "Kaya zat besi tinggi pencegah anemia", art: "hati-ayam" },
   { name: "Tempe", origin: "Pengrajin lokal", note: "Protein nabati fermentasi berkualitas", art: "tempe" },
   { name: "Daun Kelor", origin: "Kebun warga desa", note: "Sayur kaya kalsium & mikronutrien penting", art: "daun-kelor" },
 ] as const;

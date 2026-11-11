@@ -33,7 +33,7 @@ export default function Problem() {
             </h2>
           </div>
           <p className="max-w-md text-sm text-zinc-600 leading-relaxed font-sans">
-            Jeda berminggu-minggu antara penimbangan posyandu dan respons makanan membuat jendela kritis pencegahan stunting terlewat. NutriTrack Jatim mengotomatiskan seluruh alur kerja.
+            Jeda berminggu-minggu antara penimbangan posyandu dan respons makanan membuat jendela kritis pencegahan stunting terlewat. NutriTrack mengotomatiskan seluruh alur kerja.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ export default function Problem() {
         {/* Footnote */}
         <div className="mt-10 flex flex-wrap items-center justify-between gap-4 font-mono text-xs text-zinc-400">
           <span>Standar WHO Child Growth Standards & Permenkes No. 2/2020</span>
-          <span>Data demo platform</span>
+          <span>Sistem Terintegrasi Posyandu & Dapur SPPG</span>
         </div>
       </div>
     </section>

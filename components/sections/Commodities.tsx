@@ -6,7 +6,7 @@ import { commodities } from "@/lib/demo-data";
 const COMMODITY_STUDIO_TOKENS = [
   { code: "protein.egg_blitar", badge: "KAB. BLITAR", supplier: "Koperasi Peternak Blitar Jaya", nutrient: "12.8g Protein / 100g", color: "text-[#0E7490] border-[#A5F3FC] bg-[#EBFBFC]", stageBg: "bg-[#FFFBEB] border-amber-200/80" },
   { code: "protein.lele_lamongan", badge: "KAB. LAMONGAN", supplier: "Gapoktan Mina Makmur", nutrient: "Asam Lemak Esensial & DHA", color: "text-[#15803D] border-[#BBF7D0] bg-[#F0FDF4]", stageBg: "bg-[#F0FDF4] border-emerald-200/80" },
-  { code: "nutrient.iron_liver", badge: "PETERNAK JATIM", supplier: "Sentra Peternak Mandiri", nutrient: "Zat Besi Tinggi & Vit. A", color: "text-[#C2410C] border-[#FFEDD5] bg-[#FFF7ED]", stageBg: "bg-[#FFF7ED] border-orange-200/80" },
+  { code: "nutrient.iron_liver", badge: "PETERNAK LOKAL", supplier: "Sentra Peternak Mandiri", nutrient: "Zat Besi Tinggi & Vit. A", color: "text-[#C2410C] border-[#FFEDD5] bg-[#FFF7ED]", stageBg: "bg-[#FFF7ED] border-orange-200/80" },
   { code: "protein.soy_tempe", badge: "PENGRAJIN LOKAL", supplier: "Koperasi Pengrajin Kedelai", nutrient: "Protein Nabati Fermentasi", color: "text-[#A16207] border-[#FEF08A] bg-[#FEFCE8]", stageBg: "bg-[#FEFCE8] border-yellow-200/80" },
   { code: "micro.moringa_kelor", badge: "KEBUN WARGA", supplier: "Kelompok Wanita Tani Desa", nutrient: "Kaya Kalsium & Antioksidan", color: "text-[#0F766E] border-[#CCFBF1] bg-[#F0FDFA]", stageBg: "bg-[#ECFDF5] border-teal-200/80" },
 ];
@@ -91,7 +91,7 @@ export default function Commodities() {
         <div className="mt-10 flex flex-wrap items-center justify-between gap-4 pt-6 border-t border-zinc-200/80 font-mono text-xs text-zinc-500">
           <span>Evaluasi Ketersediaan Bahan Pangan Lokal (PRD Bagian 5.2 - SKPL F09)</span>
           <span className="token-chip bg-white border-zinc-200 text-zinc-600">
-            ● 100% Pasokan Jawa Timur · Data Demo
+            ● 100% Pasokan Petani & Peternak Lokal Berkualitas · Terverifikasi SPPG
           </span>
         </div>
 

@@ -28,10 +28,10 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-4 py-1.5 shadow-sm mb-6">
             <span className="h-2 w-2 rounded-full bg-[#38E8F5] animate-pulse" />
             <span className="font-mono text-xs font-bold uppercase tracking-wider text-zinc-700">
-              NutriTrack Jatim · Intervensi Presisi
+              NutriTrack · Intervensi Presisi
             </span>
-            <span className="rounded-full bg-zinc-100 px-2 py-0.5 font-mono text-[10px] text-zinc-500">
-              Data Demo
+            <span className="rounded-full bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 font-mono text-[10px] font-bold text-emerald-800">
+              Sistem Aktif
             </span>
           </div>
 
@@ -663,7 +663,7 @@ export default function Hero() {
 
                   <div className="rounded-xl bg-zinc-50 p-2.5 border border-zinc-100 flex items-center justify-between text-xs font-mono">
                     <span className="text-zinc-600 font-medium">Rantai Pasok</span>
-                    <span className="font-bold text-emerald-600">Gapoktan Jatim</span>
+                    <span className="font-bold text-emerald-600">Gapoktan Lokal</span>
                   </div>
                 </div>
 
@@ -680,7 +680,7 @@ export default function Hero() {
                   {/* Variant 1: Solid Purple Card */}
                   <div className="rounded-2xl bg-[#7866FF] p-3.5 text-white shadow-md transition-transform hover:-translate-y-0.5">
                     <span className="font-mono text-[9px] uppercase tracking-wider opacity-85 block mb-1 font-bold">
-                      NutriTrack Jatim
+                      NutriTrack
                     </span>
                     <h4 className="font-sans text-xs font-black leading-tight">
                       Timbang Hari Ini, Masak Hari Ini
@@ -719,7 +719,7 @@ export default function Hero() {
                   {/* Variant 4: Purple Outline Card */}
                   <div className="rounded-2xl bg-white p-3.5 text-zinc-900 border-2 border-[#A499FF] transition-transform hover:-translate-y-0.5">
                     <span className="font-mono text-[9px] uppercase tracking-wider text-[#7866FF] block mb-1 font-bold">
-                      Dinkes Jatim
+                      Dinas Kesehatan
                     </span>
                     <h4 className="font-sans text-xs font-black leading-tight">
                       Return on Nutrition

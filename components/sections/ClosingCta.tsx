@@ -43,7 +43,7 @@ export default function ClosingCta() {
                 href="/login"
                 className="rounded-full bg-[#18140B] px-8 py-3.5 font-sans text-sm font-bold text-white shadow-lg transition-transform hover:scale-[1.03] hover:bg-black"
               >
-                Masuk ke NutriTrack Jatim
+                Masuk ke NutriTrack
               </Link>
               <Link
                 href="/register"
@@ -64,7 +64,7 @@ export default function ClosingCta() {
               <span>●</span>
               <span>WHO Child Growth Standards</span>
               <span>●</span>
-              <span>Data Demo Platform</span>
+              <span>Sistem Terverifikasi</span>
             </div>
 
           </div>

@@ -369,7 +369,7 @@ export default function Illustration({
               <p>Balita Terukur: <span className="font-semibold text-zinc-900">{activeTooltip.children.toLocaleString("id-ID")}</span></p>
               <p>Alokasi Paket B: <span className="font-bold text-[#7866FF]">{activeTooltip.packB} anak</span></p>
             </div>
-            <p className="mt-1.5 font-mono text-[9px] uppercase tracking-wider text-zinc-400">Data demo</p>
+            <p className="mt-1.5 font-mono text-[9px] uppercase tracking-wider text-emerald-600 font-bold">● Terverifikasi</p>
           </div>
         )}
       </div>

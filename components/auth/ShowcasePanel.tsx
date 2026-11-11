@@ -197,7 +197,7 @@ function RegisterContent({ near, far }: { near: Depth; far: Depth }) {
 
       <div>
         <h2 className="font-sans text-[2.1rem] font-black uppercase leading-[1.03] tracking-tightest xl:text-[2.4rem]">
-          Bergabung dengan<br />jaringan gizi<br />Jawa Timur.
+          Bergabung dengan<br />jaringan gizi<br />NutriTrack.
         </h2>
         <ul className="mt-4 space-y-2 font-sans text-sm font-semibold">
           {["Satu akun, satu peran, satu wilayah kerja", "Persetujuan data tercatat sejak awal", "Data balita terlindungi sesuai UU PDP"].map((t) => (

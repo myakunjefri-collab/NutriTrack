@@ -34,8 +34,8 @@ export default function LoginForm({ delay }: { delay: number }) {
   };
 
   const fillDemo = () => {
-    setId(`demo.${role}@nutritrack.jatimprov.go.id`);
-    setPw("Demo12345!");
+    setId(`petugas.${role}@nutritrack.go.id`);
+    setPw("Password123!");
     setErrors({});
   };
 
@@ -48,7 +48,7 @@ export default function LoginForm({ delay }: { delay: number }) {
         Selamat datang<br />kembali.
       </motion.h1>
       <motion.p variants={item} className="mt-3 max-w-sm font-sans text-sm font-medium leading-relaxed text-zinc-600">
-        Pilih peran akunmu, lalu lanjutkan pemantauan gizi balita Jawa Timur.
+        Pilih peran akunmu, lalu lanjutkan pemantauan gizi balita dan alokasi MBG presisi.
       </motion.p>
 
       <form onSubmit={onSubmit} noValidate className="mt-7 space-y-4">
@@ -75,7 +75,7 @@ export default function LoginForm({ delay }: { delay: number }) {
         </motion.div>
 
         <motion.div variants={item}>
-          <SubmitButton status={status} doneLabel="Berhasil (mode demo)">Masuk sebagai {info.name}</SubmitButton>
+          <SubmitButton status={status} doneLabel="Berhasil Masuk">Masuk sebagai {info.name}</SubmitButton>
         </motion.div>
 
         {status === "done" && (
@@ -114,7 +114,7 @@ export default function LoginForm({ delay }: { delay: number }) {
           onClick={fillDemo}
           className="inline-flex min-h-[44px] items-center font-mono text-[11px] font-bold text-zinc-500 underline-offset-4 hover:text-zinc-900 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#38E8F5] rounded-md"
         >
-          Isi akun demo
+          Isi akun pengujian
         </button>
       </motion.div>
     </motion.div>

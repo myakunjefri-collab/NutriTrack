@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function StudioChatWidget() {
   const [isOpen, setIsOpen] = useState(true);
@@ -17,24 +18,36 @@ export default function StudioChatWidget() {
             ×
           </button>
           <div className="flex items-center gap-2 mb-1.5">
-            <span className="flex h-5 w-5 items-center justify-center rounded-md bg-[#38E8F5] text-[10px] font-black text-[#032D30]">
-              &lt;&gt;
-            </span>
-            <span className="font-mono text-[10px] font-bold text-zinc-500 uppercase">Bantuan NutriTrack Jatim</span>
+            <div className="relative flex h-5 w-5 shrink-0 items-center justify-center overflow-hidden rounded-md bg-black">
+              <Image
+                src="/logo.png"
+                alt="NutriTrack"
+                width={20}
+                height={20}
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <span className="font-mono text-[10px] font-bold text-zinc-500 uppercase">Bantuan NutriTrack</span>
           </div>
           <p className="font-sans text-[11px] leading-relaxed text-zinc-700 font-medium">
-            Punya pertanyaan mengenai implementasi posyandu & MBG Jatim? Tinggalkan pesan di sini.
+            Punya pertanyaan mengenai implementasi posyandu & MBG? Tinggalkan pesan di sini.
           </p>
         </div>
       )}
 
-      {/* Circle Cyan Chat Trigger */}
+      {/* Circle Dark Chat Trigger with Logo */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex h-12 w-12 items-center justify-center rounded-full bg-[#38E8F5] text-[#032D30] shadow-xl hover:scale-105 active:scale-95 transition-transform"
-        aria-label="Buka bantuan NutriTrack Jatim"
+        className="flex h-12 w-12 items-center justify-center rounded-full bg-black text-white shadow-xl hover:scale-105 active:scale-95 transition-transform overflow-hidden p-2 border-2 border-zinc-800"
+        aria-label="Buka bantuan NutriTrack"
       >
-        <span className="font-mono text-base font-black">&lt;&gt;</span>
+        <Image
+          src="/logo.png"
+          alt="NutriTrack Logo"
+          width={28}
+          height={28}
+          className="h-full w-full object-cover rounded-full"
+        />
       </button>
     </div>
   );

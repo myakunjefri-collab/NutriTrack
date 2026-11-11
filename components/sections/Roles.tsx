@@ -25,7 +25,7 @@ export default function Roles() {
             </h2>
           </div>
           <span className="token-chip bg-zinc-50 text-zinc-600 border-zinc-200 shadow-sm">
-            Row-Level Security (RLS) · Data Demo
+            Row-Level Security (RLS) · Standar Keamanan Data
           </span>
         </div>
 
@@ -166,7 +166,7 @@ function MockupKader() {
         </div>
 
         <span className="font-mono text-[9px] text-zinc-400 block text-center mt-3">
-          Wireframe Kader · Data demo
+          Antarmuka Kader Posyandu
         </span>
       </div>
     </motion.div>
@@ -186,7 +186,7 @@ function MockupDapur() {
         
         <div className="flex items-center justify-between border-b border-zinc-200 pb-4">
           <div>
-            <span className="font-mono text-xs text-[#16A34A] font-bold block">DAPUR MBG / SPPG JATIM</span>
+            <span className="font-mono text-xs text-[#16A34A] font-bold block">DAPUR MBG / SENTRA PELAYANAN GIZI</span>
             <h4 className="text-lg font-bold">Dapur Pelayanan MBG Kec. Sukorejo</h4>
           </div>
           <span className="token-chip bg-emerald-100 text-emerald-800 border-emerald-300 font-bold">
@@ -240,7 +240,7 @@ function MockupDapur() {
         </div>
 
         <span className="font-mono text-[9px] text-zinc-400 block text-right mt-3">
-          Wireframe Dapur SPPG · Data demo
+          Antarmuka Dapur SPPG
         </span>
       </div>
     </motion.div>
@@ -316,7 +316,7 @@ function MockupPuskesmas() {
         </div>
 
         <span className="font-mono text-[9px] text-zinc-400 block text-right mt-3">
-          Wireframe Puskesmas · Data demo
+          Antarmuka Puskesmas Pembina
         </span>
       </div>
     </motion.div>
@@ -335,11 +335,11 @@ function MockupDinkes() {
       <div className="rounded-2xl bg-[#F7F8F8] p-6 border border-zinc-200 font-sans text-zinc-950">
         <div className="flex items-center justify-between border-b border-zinc-200 pb-4">
           <div>
-            <span className="font-mono text-xs text-[#7866FF] font-bold block">EKSEKUTIF PEMPROV JATIM</span>
+            <span className="font-mono text-xs text-[#7866FF] font-bold block">DASBOR EKSEKUTIF PEMERINTAH DAERAH</span>
             <h4 className="text-lg font-bold">Monitoring Stunting & Evaluasi MBG</h4>
           </div>
           <span className="token-chip bg-cyan-100 text-[#032D30] border-cyan-300 font-bold">
-            ● Se-Jawa Timur
+            ● Integrasi Lintas Wilayah
           </span>
         </div>
 
@@ -392,7 +392,7 @@ function MockupDinkes() {
         </div>
 
         <span className="font-mono text-[9px] text-zinc-400 block text-right mt-3">
-          Wireframe Eksekutif · Data demo
+          Antarmuka Dasbor Eksekutif
         </span>
       </div>
     </motion.div>
